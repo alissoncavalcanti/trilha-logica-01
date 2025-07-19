@@ -1,6 +1,13 @@
-let experienciaHeroi = 5320
+let experienciaHeroi
 let eloHeroi
-let nomeHeroi = "Alisson"
+let nomeHeroi
+
+//Digite o nome do seu herói:
+nomeHeroi = "Alisson"
+
+//Digite quanta experiência seu herói conseguiu com suas aventuras:
+experienciaHeroi = 7035
+
 
 if (experienciaHeroi<1000){eloHeroi="Ferro"}
 else if (experienciaHeroi>=1001 && experienciaHeroi<2000) {eloHeroi="Bronze"}
